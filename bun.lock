@@ -60,6 +60,7 @@
         "@varlock/vite-integration": "1.5.1",
         "ai": "catalog:",
         "better-auth": "catalog:",
+        "date-fns": "^4.4.0",
         "lucide-react": "catalog:",
         "next-themes": "catalog:",
         "react": "catalog:",
