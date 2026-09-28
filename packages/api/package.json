@@ -1,0 +1,27 @@
+{
+	"name": "@nook/api",
+	"type": "module",
+	"exports": {
+		".": "./src/index.ts",
+		"./*": "./src/*.ts"
+	},
+	"scripts": {
+		"check-types": "tsc --noEmit"
+	},
+	"dependencies": {
+		"@nook/auth": "workspace:*",
+		"@nook/db": "workspace:*",
+		"@nook/validation": "workspace:*",
+		"@trpc/client": "catalog:",
+		"@trpc/server": "catalog:",
+		"@types/pg": "catalog:",
+		"drizzle-orm": "catalog:",
+		"rss-parser": "^3.13.0",
+		"zod": "catalog:",
+		"superjson": "catalog:"
+	},
+	"devDependencies": {
+		"@nook/config": "workspace:*",
+		"typescript": "catalog:"
+	}
+}

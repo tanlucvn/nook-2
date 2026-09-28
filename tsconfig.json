@@ -1,0 +1,3 @@
+{
+  "extends": "@nook/config/tsconfig.base.json"
+}

@@ -1,0 +1,19 @@
+{
+	"name": "@nook/validation",
+	"type": "module",
+	"exports": {
+		".": "./src/index.ts",
+		"./*": "./src/*.ts"
+	},
+	"scripts": {
+		"check-types": "tsc --noEmit"
+	},
+	"dependencies": {
+		"@nook/db": "workspace:*",
+		"zod": "catalog:"
+	},
+	"devDependencies": {
+		"@nook/config": "workspace:*",
+		"typescript": "catalog:"
+	}
+}
